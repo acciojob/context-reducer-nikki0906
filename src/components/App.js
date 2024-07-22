@@ -1,2 +1,7 @@
-<p>Now I can render any React component on any DOM node I want using ReactDOM.render</p>
+import React, { useContext, useState } from 'react';
+import { AuthContext, AuthProvider } from './AuthContext';
+import './App.css';
+
+const App = () => {
+  const { authState, login, signout } = use
 
